@@ -17,6 +17,7 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   font-family: Source Code Pro;
+  background-color: black;
 }
 
 
@@ -24,10 +25,12 @@
   color: #FB8B24;
   font-weight: bolder;
   font-size: 50px;
+  font-weight: bolder;
 }
 
 [data-theme='dark'] h2{
   color: #F4EAE0;
+  font-weight: bold;
 }
 [data-theme='dark'] ul li{
   color: white;
