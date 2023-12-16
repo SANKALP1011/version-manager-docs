@@ -17,10 +17,7 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   font-family: Source Code Pro;
-  background-color: black;
 }
-
-
 [data-theme='dark'] h1{
   color: #FB8B24;
   font-weight: bolder;
@@ -46,6 +43,7 @@
   --ifm-color-primary-lighter: #D0BFFF;
   --ifm-color-primary-lightest: #D0BFFF;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  background-color: black;
 }
 
 

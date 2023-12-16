@@ -85,42 +85,42 @@ const config = {
           },
         ],
       },
-      footer: {
-        style: "dark",
-        links: [
-          {
-            title: "Docs",
-            items: [
-              {
-                label: "Tutorial",
-                to: "/docs/intro",
-              },
-            ],
-          },
-          {
-            title: "Community",
-            items: [
-              {
-                label: "Developer",
-                href: "https://sankalp10.dev/",
-              },
-              {
-                label: "Github",
-                href: "https://github.com/SANKALP1011/VersionManager",
-              },
-              {
-                label: "LinkedIn",
-                href: "https://www.linkedin.com/in/sankalp-pandey-688a28223?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Version Manager Api, Inc. Built with Docusaurus.`,
-      },
-      prism: {
-        theme: prismThemes.dracula,
-        darkTheme: prismThemes.oneDark,
-      },
+      // footer: {
+      //   style: "dark",
+      //   links: [
+      //     {
+      //       title: "Docs",
+      //       items: [
+      //         {
+      //           label: "Tutorial",
+      //           to: "/docs/intro",
+      //         },
+      //       ],
+      //     },
+      //     {
+      //       title: "Community",
+      //       items: [
+      //         {
+      //           label: "Developer",
+      //           href: "https://sankalp10.dev/",
+      //         },
+      //         {
+      //           label: "Github",
+      //           href: "https://github.com/SANKALP1011/VersionManager",
+      //         },
+      //         {
+      //           label: "LinkedIn",
+      //           href: "https://www.linkedin.com/in/sankalp-pandey-688a28223?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      //         },
+      //       ],
+      //     },
+      //   ],
+      //   copyright: `Copyright © ${new Date().getFullYear()} Version Manager Api, Inc. Built with Docusaurus.`,
+      // },
+      // prism: {
+      //   theme: prismThemes.dracula,
+      //   darkTheme: prismThemes.oneDark,
+      // },
     }),
 };
 
