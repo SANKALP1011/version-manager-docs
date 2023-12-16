@@ -47,3 +47,9 @@ VersionManager/
 |   | -- githubOAuth.controller.js (Passport config inorder to handle the github auth)
 |   | -- githubStartegies.controller.js (Contains the entire code for handling the code response returned from the github , saving it to database and using the token)
 ```
+
+:::info
+
+Once authenticated , you would receive a **auth token** from Github. Use that **Auth Token while testimg on Postman**.
+
+:::
