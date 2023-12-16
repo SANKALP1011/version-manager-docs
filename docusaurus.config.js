@@ -8,6 +8,10 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+  markdown: {
+    mermaid: true,
+  },
+  themes: ["@docusaurus/theme-mermaid"],
   title: "Version Manager Api",
   tagline:
     "This is the version manager api documentation which could be referred by the developers.",
