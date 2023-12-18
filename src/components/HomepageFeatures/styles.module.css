@@ -1,18 +1,30 @@
-.features {
+[data-theme='dark'] .features {
   display: flex;
   align-items: center;
   padding: 2rem 0;
   width: 100%;
 }
-.features h2{
+[data-theme='dark'] .features h2{
   color: #D0BFFF;
   font-weight: bolder;
 }
-.features p {
+[data-theme='dark'] .features p {
   color: #E3651D;
   font-weight: bold;
 }
 .featureSvg {
   height: 200px;
   width: 200px;
+}
+
+/* Light Theme */
+
+.features h2{
+  color: #512B81;
+  font-weight: bolder;
+}
+
+.features p{
+  color: #03001C;
+  font-weight: bold;
 }

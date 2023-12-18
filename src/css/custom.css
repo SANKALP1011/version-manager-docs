@@ -7,30 +7,43 @@
 /* You can override the default Infima variables here. */
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Maps&family=Source+Code+Pro:wght@200&display=swap');
 :root {
-  --ifm-color-primary: #0F2167;
-  --ifm-color-primary-dark: #0F2167;
-  --ifm-color-primary-darker: #0F2167;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #E5D4FF;
+  --ifm-color-primary-dark: #E5D4FF;
+  --ifm-color-primary-darker: #E5D4FF;
+  --ifm-color-primary-darkest: #E5D4FF;
+  --ifm-color-primary-light: #E5D4FF;
+  --ifm-color-primary-lighter: #E5D4FF;
+  --ifm-color-primary-lightest: #E5D4FF;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   font-family: Source Code Pro;
 }
 [data-theme='dark'] h1{
-  color: #FB8B24;
+  color: #7E30E1;
   font-weight: bolder;
   font-size: 50px;
   font-weight: bolder;
 }
 
 [data-theme='dark'] h2{
-  color: #F4EAE0;
+  color: #D0F288;
   font-weight: bold;
 }
 [data-theme='dark'] ul li{
   color: white;
+}
+
+h1{
+  color: #4C0027;
+}
+
+h2{
+  color: #000000;
+}
+
+ul li{
+  color: #171010;
+  font-weight: bold;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
