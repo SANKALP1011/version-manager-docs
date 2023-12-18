@@ -10,7 +10,7 @@ sidebar_position: 9
 
 ## Flow
 
-```meramaid
+```mermaid
 graph TD
 A[Start] -->|Receive Request| B[Extract User ID]
 B -->|User ID| C[Retrieve User by ID]
@@ -27,8 +27,6 @@ J -->|Response| K[End]
 N -->|Error| K[End]
 
 ```
-
-## Endpoint
 
 ## Endpoint
 
