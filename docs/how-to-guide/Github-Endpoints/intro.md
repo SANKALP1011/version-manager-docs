@@ -10,7 +10,7 @@ sidebar_position: 1
 
 ## Github Services
 
-- For more about services that are being used for fetching the data from the github rest api , refer to the following [Service](/docs/how-to-guide/Services/github-services.md).
+- For more about services that are being used for fetching the data from the github rest api , refer to the following [Service](/docs/Services/Services.md).
 
 ## Endpoints
 
